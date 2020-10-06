@@ -23,3 +23,7 @@ for i in arr:
 		else:
 		    print("Number is present,It is Odd")	
 	
+#fourth
+print("Reversed array.....")
+arr.reverse()
+print(arr)
