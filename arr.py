@@ -36,3 +36,9 @@ for i in a:
     if i==b:
         c=c+1
 print(c)
+
+#six
+n=int(input("enter value to be removed:"))
+if n in a:
+    a.remove(n)
+print(a)
