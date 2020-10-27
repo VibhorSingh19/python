@@ -28,7 +28,7 @@ print("Reversed array.....")
 arr.reverse()
 print(arr)
 #fifth
-a=array.array('i',[0,9,8,5,3,2,0])
+a=array.array('i',[0,9,8,5,3,0,2])
 print(a)
 c=0
 b=int(input("enter value for the frequency..:"))
