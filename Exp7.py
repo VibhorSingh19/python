@@ -34,7 +34,7 @@ else:
 print(a)    
 '''
 #Ques3:WAP to count the no. of occurrences of a word in a text file.
-'''
+
 c=0
 input1=input("enter the word to be searched in a file:")
 f=open("filec.txt","r")
@@ -47,9 +47,9 @@ for i in words:
 print(c)
 f.close()
 '''
-
+'''
 #WAP to create a small s/w for banking which should cover only two options i.e withdrawal & deposits 
-
+'''
 f=open("file1.txt","r")
 a=f.read().split()
 f.close()
@@ -69,7 +69,7 @@ if(acc==int(a[0])):
       	
 print("Your New Balance is:",a[1])
 
-
+'''
 
 
 
