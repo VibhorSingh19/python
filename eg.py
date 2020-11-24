@@ -1,4 +1,5 @@
-
+lst = []
+duplicates = {}
 print("Enter any 5 numbers: ", end="")
 
 for i in range(0, 5):
