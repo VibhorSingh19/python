@@ -7,15 +7,7 @@ def press(num):
 def equalpress(): 
 	try: 
 
-		global expression 
-
-		total = str(eval(expression)) 
-
-		equation.set(total) 
-
-		# initialze the expression variable 
-		# by empty string 
-		expression = "" 
+		
 
 	# if error is generate then handle 
 	# by the except block 
