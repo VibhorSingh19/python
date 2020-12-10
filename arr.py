@@ -23,6 +23,7 @@ def transactionMenu():
         f.close()
 
 
+    Label(tk, text="1. Press 1 for amount Withdrawal from the account {0}.".format(acc_no), width=25, anchor="w").grid(row=4, column=1)
     Label(tk, text="2. Press 2 for amount Deposit in the account {0}.".format(acc_no), width=25, anchor="w").grid(row=5, column=1)
     Label(tk, text="Enter choice: ", width=25, anchor="w").grid(row=6, column=1)
 
